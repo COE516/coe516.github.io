@@ -2,7 +2,7 @@
 layout: single
 title: "Spring @Transactional이 rollback 안 되는 이유와 동작 원리 제대로 이해하기"
 date: 2026-05-05 01:18:17 +0900
-categories: [dev]
+categories: [spring]
 tags: [spring, transactional, transaction, rollback, aop]
 toc: true
 excerpt: "@Transactional의 기본 동작과 rollback이 기대대로 일어나지 않는 대표 원인을 짧고 실무적으로 정리한다."
