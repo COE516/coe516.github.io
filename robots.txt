@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coe516.github.io/sitemap.xml
