@@ -3,7 +3,7 @@ layout: single
 title: "트랜잭션 격리 수준은 언제 조정해야 할까"
 date: 2026-03-21 01:51:35 +0900
 categories: [database]
-tags: [transaction, isolation, database, locking, spring]
+tags: [database, transaction, 데이터베이스, 트랜잭션]
 toc: true
 excerpt: "격리 수준은 이름을 외우는 문제보다 무엇을 막고 싶은지로 보는 편이 낫다. 기본값을 함부로 올리기보다 실제 이상 현상과 경합 비용을 같이 봐야 한다."
 ---

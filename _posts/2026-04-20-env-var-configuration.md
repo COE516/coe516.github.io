@@ -3,7 +3,7 @@ layout: single
 title: "환경변수로 설정값 주입하는 방법"
 date: 2026-04-20 01:51:35 +0900
 categories: [deployment]
-tags: [spring, env, config, deployment, yml]
+tags: [spring, config, deployment, 환경변수]
 toc: true
 excerpt: "운영 환경에서는 yml보다 환경변수 주입이 더 자연스러운 경우가 많다. Spring Boot에서 연결하는 방식을 정리한다."
 ---

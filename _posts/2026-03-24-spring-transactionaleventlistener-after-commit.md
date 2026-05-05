@@ -3,7 +3,7 @@ layout: single
 title: "Spring TransactionalEventListener는 언제 실행될까"
 date: 2026-03-24 01:44:37 +0900
 categories: [spring]
-tags: [spring, event, transaction, after-commit, domain-event]
+tags: [spring, event, 스프링, 이벤트]
 toc: true
 excerpt: "이벤트는 발행했는데 왜 바로 실행되지 않거나 rollback과 함께 사라지는지 헷갈릴 때가 있다. TransactionalEventListener의 실행 시점을 정리한다."
 ---

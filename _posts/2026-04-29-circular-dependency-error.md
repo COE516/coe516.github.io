@@ -3,7 +3,7 @@ layout: single
 title: "Circular dependency 오류 해결 방법"
 date: 2026-04-29 01:51:35 +0900
 categories: [spring]
-tags: [spring, dependency-injection, circular-dependency, bean, design]
+tags: [spring, dependency-injection, bean, 순환참조]
 toc: true
 excerpt: "순환 참조 오류는 주입 방식보다 설계 신호에 가깝다. 왜 생기고 어떻게 끊을지 정리한다."
 ---

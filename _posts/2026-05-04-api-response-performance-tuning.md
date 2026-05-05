@@ -3,7 +3,7 @@ layout: single
 title: "API 응답 속도 개선은 어디부터 봐야 할까"
 date: 2026-05-04 01:51:35 +0900
 categories: [api]
-tags: [api, performance, query, cache, backend]
+tags: [api, performance, API, 성능]
 toc: true
 excerpt: "응답 속도 개선은 최적화 기법보다 병목을 찾는 순서가 더 중요하다. DB, 외부 호출, 직렬화, payload 크기 순으로 좁혀가면 헛수고를 줄일 수 있다."
 ---

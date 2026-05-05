@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot에서 필터(Filter)와 인터셉터 차이"
 date: 2026-04-18 01:51:35 +0900
 categories: [api]
-tags: [spring, filter, interceptor, mvc, web]
+tags: [spring, mvc, web, 웹]
 toc: true
 excerpt: "둘 다 요청 전후를 다루지만 위치와 책임이 다르다. 무엇을 어디에 둘지 기준을 정리한다."
 ---

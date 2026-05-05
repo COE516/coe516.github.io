@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot에서 프로파일(dev/prod) 분리 방법"
 date: 2026-04-01 01:51:35 +0900
 categories: [deployment]
-tags: [spring, profile, dev, prod, config]
+tags: [spring, config, deployment, 설정]
 toc: true
 excerpt: "dev와 prod 설정을 분리하지 않으면 로컬 편의 설정이 운영까지 따라가기 쉽다. 실무적인 분리 기준을 정리한다."
 ---

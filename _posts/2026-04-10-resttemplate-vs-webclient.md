@@ -3,7 +3,7 @@ layout: single
 title: "RestTemplate vs WebClient 차이와 선택 기준"
 date: 2026-04-10 01:51:35 +0900
 categories: [api]
-tags: [spring, resttemplate, webclient, http, reactive]
+tags: [spring, api, 스프링, HTTP]
 toc: true
 excerpt: "RestTemplate과 WebClient는 둘 다 HTTP 호출 도구지만 실행 모델과 운영 포인트가 다르다. 선택 기준을 정리한다."
 ---

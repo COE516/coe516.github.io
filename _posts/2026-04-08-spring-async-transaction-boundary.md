@@ -3,7 +3,7 @@ layout: single
 title: "Spring @Async와 @Transactional을 같이 쓸 때 놓치기 쉬운 점"
 date: 2026-04-08 01:44:37 +0900
 categories: [spring]
-tags: [spring, async, transactional, thread, propagation]
+tags: [spring, async, transaction, 비동기]
 toc: true
 excerpt: "@Async와 @Transactional을 함께 쓰면 같은 흐름처럼 보여도 실제로는 다른 스레드와 다른 트랜잭션으로 분리될 수 있다."
 ---

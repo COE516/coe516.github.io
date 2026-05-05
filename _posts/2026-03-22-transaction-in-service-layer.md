@@ -3,7 +3,7 @@ layout: single
 title: "트랜잭션을 Service 계층에 두는 이유"
 date: 2026-03-22 01:51:35 +0900
 categories: [spring]
-tags: [spring, transaction, service, repository, architecture]
+tags: [spring, transaction, 스프링, 트랜잭션]
 toc: true
 excerpt: "트랜잭션을 어디에 걸어야 하는지 헷갈릴 때가 있다. 왜 Service 계층이 기본 선택이 되는지 정리한다."
 ---

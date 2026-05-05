@@ -3,7 +3,7 @@ layout: single
 title: "Open Session In View를 켠 채로 두면 생기는 문제"
 date: 2026-03-28 01:44:37 +0900
 categories: [spring]
-tags: [spring, jpa, osiv, lazy-loading, performance]
+tags: [spring, jpa, 스프링, 지연로딩]
 toc: true
 excerpt: "OSIV는 편할 때가 많지만 조회 쿼리가 어디서 발생하는지 흐려지기 쉽다. 왜 문제로 이어지는지 짧게 정리한다."
 ---

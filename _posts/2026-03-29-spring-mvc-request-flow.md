@@ -3,7 +3,7 @@ layout: single
 title: "Spring MVC 요청 처리 흐름 (DispatcherServlet 중심)"
 date: 2026-03-29 01:51:35 +0900
 categories: [spring]
-tags: [spring, mvc, dispatcherservlet, request, controller]
+tags: [spring, mvc, 스프링, 웹]
 toc: true
 excerpt: "요청이 Controller까지 어떻게 도착하는지 흐름을 알고 있으면 필터, 인터셉터, 예외 처리도 같이 이해하기 쉬워진다."
 ---

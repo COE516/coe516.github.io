@@ -3,7 +3,7 @@ layout: single
 title: "@Component, @Service, @Repository 차이"
 date: 2026-04-28 01:51:35 +0900
 categories: [spring]
-tags: [spring, component, service, repository, stereotype]
+tags: [spring, service, repository, 스프링]
 toc: true
 excerpt: "셋 다 스프링 빈이 되지만 의미는 다르다. 역할을 나누는 기준을 간단히 정리한다."
 ---

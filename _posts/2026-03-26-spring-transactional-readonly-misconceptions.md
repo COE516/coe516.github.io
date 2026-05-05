@@ -3,7 +3,7 @@ layout: single
 title: "Spring @Transactional(readOnly = true)를 쓰면 정말 안전할까"
 date: 2026-03-26 01:44:37 +0900
 categories: [spring]
-tags: [spring, transactional, readonly, jpa, hibernate]
+tags: [spring, transaction, jpa, 트랜잭션]
 toc: true
 excerpt: "readOnly 트랜잭션을 붙였다고 해서 쓰기가 완전히 막히는 것은 아니다. 실무에서 자주 생기는 오해를 짧게 정리한다."
 ---

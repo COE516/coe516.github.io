@@ -3,7 +3,7 @@ layout: single
 title: "JPA vs MyBatis 선택 기준"
 date: 2026-04-15 01:51:35 +0900
 categories: [database]
-tags: [jpa, mybatis, orm, sql, backend]
+tags: [jpa, mybatis, database, 데이터접근]
 toc: true
 excerpt: "둘 중 하나가 무조건 정답은 아니다. 도메인 복잡도와 SQL 제어 필요성에 따라 선택 기준이 달라진다."
 ---

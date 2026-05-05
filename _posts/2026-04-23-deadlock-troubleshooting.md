@@ -3,7 +3,7 @@ layout: single
 title: "Deadlock이 보일 때 먼저 확인할 것들"
 date: 2026-04-23 01:51:35 +0900
 categories: [database]
-tags: [deadlock, database, locking, transaction, mysql]
+tags: [database, transaction, locking, 데드락]
 toc: true
 excerpt: "데드락은 완전히 없애기보다 빈도를 낮추고 빠르게 복구 가능하게 다루는 문제가 많다. 잠금 순서, 트랜잭션 길이, 재시도 구조를 함께 봐야 한다."
 ---

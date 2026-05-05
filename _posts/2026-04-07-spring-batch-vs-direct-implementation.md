@@ -3,7 +3,7 @@ layout: single
 title: "Spring Batch를 써야 할까, 직접 구현해도 될까"
 date: 2026-04-07 01:51:35 +0900
 categories: [spring]
-tags: [spring, batch, job, scheduler, backend]
+tags: [spring, batch, 스프링, 배치]
 toc: true
 excerpt: "배치 작업은 크기보다 운영 요구사항으로 판단하는 편이 맞다. 재시작, 실행 이력, chunk 처리 필요 여부가 Spring Batch 도입 기준이 된다."
 ---

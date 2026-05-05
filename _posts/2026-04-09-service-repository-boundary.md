@@ -3,7 +3,7 @@ layout: single
 title: "Service / Repository 계층 나누는 기준"
 date: 2026-04-09 01:51:35 +0900
 categories: [spring]
-tags: [spring, service, repository, architecture, layering]
+tags: [spring, architecture, 스프링, 계층분리]
 toc: true
 excerpt: "Service와 Repository를 나눌 때 중요한 건 기술보다 책임이다. 어디까지를 DB 접근으로 보고 어디부터를 비즈니스로 볼지 정리한다."
 ---

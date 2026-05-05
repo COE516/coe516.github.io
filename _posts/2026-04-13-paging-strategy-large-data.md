@@ -3,7 +3,7 @@ layout: single
 title: "대용량 데이터 처리 시 페이징 전략: offset과 keyset은 어떻게 고를까"
 date: 2026-04-13 01:51:35 +0900
 categories: [database]
-tags: [database, paging, pagination, query, performance]
+tags: [database, performance, pagination, 페이징]
 toc: true
 excerpt: "대용량 목록에서는 offset이 뒤로 갈수록 비싸질 수 있다. 관리형 목록은 offset, 무한 스크롤과 큰 데이터셋은 keyset이 더 잘 맞는 경우가 많다."
 ---

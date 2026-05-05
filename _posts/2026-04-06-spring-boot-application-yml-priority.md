@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot에서 application.yml 설정 우선순위"
 date: 2026-04-06 01:51:35 +0900
 categories: [deployment]
-tags: [spring, yml, config, profile, env]
+tags: [spring, config, deployment, 설정]
 toc: true
 excerpt: "값은 분명 설정했는데 왜 다른 값이 읽히는지 헷갈릴 때가 있다. Spring Boot 설정 우선순위를 간단히 정리한다."
 ---

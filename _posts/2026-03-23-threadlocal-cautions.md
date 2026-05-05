@@ -3,7 +3,7 @@ layout: single
 title: "ThreadLocal 사용 시 주의사항: 스레드풀, remove(), 비동기 경계"
 date: 2026-03-23 01:51:35 +0900
 categories: [spring]
-tags: [threadlocal, thread, spring, memory, web]
+tags: [spring, threadlocal, 스프링, 스레드]
 toc: true
 excerpt: "ThreadLocal은 값 저장보다 정리 시점이 더 중요하다. 특히 스레드풀과 비동기 경계에서는 remove() 누락이 바로 문제로 이어진다."
 ---

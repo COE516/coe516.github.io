@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot에서 static resource 처리 방식"
 date: 2026-03-31 01:51:35 +0900
 categories: [spring]
-tags: [spring, mvc, static-resource, web, resource-handler]
+tags: [spring, mvc, 스프링, 정적리소스]
 toc: true
 excerpt: "정적 파일이 어디서 서빙되는지 모르면 CSS나 이미지 경로 문제를 자주 만나게 된다. 기본 동작을 정리한다."
 ---

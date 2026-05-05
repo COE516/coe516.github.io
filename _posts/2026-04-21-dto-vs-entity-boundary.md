@@ -3,7 +3,7 @@ layout: single
 title: "DTO vs Entity 분리 이유와 기준"
 date: 2026-04-21 01:51:35 +0900
 categories: [spring]
-tags: [spring, dto, entity, jpa, api]
+tags: [spring, jpa, api, DTO]
 toc: true
 excerpt: "DTO와 Entity를 왜 굳이 나누는지, 언제부터 분리 필요성이 커지는지 실무 기준으로 정리한다."
 ---

@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot 실행 시 BeanCreationException 원인 분석"
 date: 2026-04-30 01:51:35 +0900
 categories: [spring]
-tags: [spring, bean, startup, exception, dependency-injection]
+tags: [spring, bean, exception, 빈]
 toc: true
 excerpt: "BeanCreationException은 시작점이 아니라 결과인 경우가 많다. 실제 원인을 찾는 순서를 정리한다."
 ---

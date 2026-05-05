@@ -3,7 +3,7 @@ layout: single
 title: "@Value vs @ConfigurationProperties 차이"
 date: 2026-03-19 01:51:35 +0900
 categories: [spring]
-tags: [spring, value, configurationproperties, config, binding]
+tags: [spring, config, 스프링, 설정]
 toc: true
 excerpt: "설정값 하나를 읽는 것과 설정 묶음을 객체로 관리하는 것은 다르다. @Value와 @ConfigurationProperties의 차이를 정리한다."
 ---

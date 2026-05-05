@@ -3,7 +3,7 @@ layout: single
 title: "HikariCP 커넥션 풀 설정 및 튜닝 포인트"
 date: 2026-04-17 01:51:35 +0900
 categories: [database]
-tags: [spring, hikaricp, datasource, pool, database]
+tags: [spring, hikaricp, database, 커넥션풀]
 toc: true
 excerpt: "HikariCP는 기본값도 좋지만 트래픽과 DB 특성에 따라 확인해야 할 포인트가 있다. 과하게 만지기 전 봐야 할 기준을 정리한다."
 ---

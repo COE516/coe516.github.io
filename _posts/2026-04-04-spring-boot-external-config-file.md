@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot에서 외부 설정파일 적용 방법"
 date: 2026-04-04 01:51:35 +0900
 categories: [deployment]
-tags: [spring, config, external-config, yml, deployment]
+tags: [spring, config, deployment, 외부설정]
 toc: true
 excerpt: "애플리케이션 내부 파일이 아니라 외부 설정파일을 읽어야 할 때 어떤 방식으로 적용하는지 핵심만 정리한다."
 ---

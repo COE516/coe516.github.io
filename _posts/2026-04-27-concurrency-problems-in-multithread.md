@@ -3,7 +3,7 @@ layout: single
 title: "멀티 스레드 환경에서 동시성 문제 해결"
 date: 2026-04-27 01:51:35 +0900
 categories: [database]
-tags: [concurrency, thread, database, locking, backend]
+tags: [database, concurrency, thread, 동시성]
 toc: true
 excerpt: "동시성 문제는 코드만의 문제가 아니라 DB와 상태 관리 방식까지 함께 봐야 한다. 실무 접근 순서를 정리한다."
 ---

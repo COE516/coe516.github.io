@@ -3,7 +3,7 @@ layout: single
 title: "@Autowired vs 생성자 주입 비교"
 date: 2026-05-02 01:51:35 +0900
 categories: [spring]
-tags: [spring, autowired, constructor, dependency-injection, bean]
+tags: [spring, dependency-injection, bean, 의존성주입]
 toc: true
 excerpt: "지금은 왜 생성자 주입이 더 자주 권장되는지, 필드 주입과 비교해 핵심만 정리한다."
 ---

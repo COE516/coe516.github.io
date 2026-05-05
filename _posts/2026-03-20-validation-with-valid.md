@@ -3,7 +3,7 @@ layout: single
 title: "Validation(@Valid) 제대로 사용하는 방법"
 date: 2026-03-20 01:51:35 +0900
 categories: [api]
-tags: [spring, validation, valid, dto, api]
+tags: [spring, validation, 검증, 요청검증]
 toc: true
 excerpt: "@Valid는 편리하지만 형식 검증과 비즈니스 검증을 분리해서 써야 효과적이다. 기본 사용 기준을 정리한다."
 ---

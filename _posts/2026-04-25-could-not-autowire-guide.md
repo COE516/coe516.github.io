@@ -3,7 +3,7 @@ layout: single
 title: "Could not autowire 문제 총정리"
 date: 2026-04-25 01:51:35 +0900
 categories: [spring]
-tags: [spring, autowire, bean, dependency-injection, component-scan]
+tags: [spring, bean, dependency-injection, 의존성주입]
 toc: true
 excerpt: "Could not autowire는 대부분 빈이 없거나 여러 개인 경우다. 어디부터 봐야 하는지 짧게 정리한다."
 ---

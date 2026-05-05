@@ -3,7 +3,7 @@ layout: single
 title: "분산 트랜잭션은 어떻게 접근해야 할까"
 date: 2026-04-22 01:51:35 +0900
 categories: [database]
-tags: [transaction, distributed-system, saga, event, consistency]
+tags: [transaction, database, distributed-system, 분산트랜잭션]
 toc: true
 excerpt: "여러 서비스와 저장소를 한 번에 묶고 싶어도 단일 DB 트랜잭션처럼 다루기는 어렵다. 대부분은 전역 트랜잭션보다 결과적 일관성과 보상 처리 쪽이 더 현실적이다."
 ---

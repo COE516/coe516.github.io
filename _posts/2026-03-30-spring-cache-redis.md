@@ -3,7 +3,7 @@ layout: single
 title: "Spring Cache + Redis 적용 방법"
 date: 2026-03-30 01:51:35 +0900
 categories: [api]
-tags: [spring, cache, redis, performance, backend]
+tags: [spring, cache, redis, 캐시]
 toc: true
 excerpt: "캐시를 붙이면 빨라지지만 언제 비워야 하는지가 더 중요해진다. Spring Cache와 Redis 적용 포인트를 정리한다."
 ---

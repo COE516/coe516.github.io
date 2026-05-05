@@ -3,7 +3,7 @@ layout: single
 title: "REST API 설계 시 고려사항 정리"
 date: 2026-04-11 01:51:35 +0900
 categories: [api]
-tags: [api, rest, design, http, backend]
+tags: [api, design, API, 설계]
 toc: true
 excerpt: "REST API를 설계할 때 URL보다 더 중요한 것은 자원 표현과 일관성이다. 실무 체크리스트를 짧게 정리한다."
 ---

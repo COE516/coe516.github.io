@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot Health Check 구성: liveness와 readiness를 어떻게 나눌까"
 date: 2026-04-03 01:51:35 +0900
 categories: [deployment]
-tags: [spring, actuator, health-check, monitoring, deployment]
+tags: [spring, monitoring, deployment, 헬스체크]
 toc: true
 excerpt: "헬스체크는 단순 200 응답이 아니라 트래픽을 받아도 되는지 판단하는 신호다. liveness와 readiness를 분리해야 장애 대응이 쉬워진다."
 ---

@@ -3,7 +3,7 @@ layout: single
 title: "Lazy Initialization 적용 시 주의사항"
 date: 2026-04-14 01:51:35 +0900
 categories: [spring]
-tags: [spring, lazy, initialization, startup, bean]
+tags: [spring, bean, startup, 초기화]
 toc: true
 excerpt: "시작 속도를 위해 Lazy Initialization을 켰다가 문제를 늦게 발견하는 경우가 있다. 어떤 점을 조심해야 하는지 정리한다."
 ---

@@ -3,7 +3,7 @@ layout: single
 title: "ResponseEntity는 언제 쓰고, 언제 굳이 안 써도 될까"
 date: 2026-04-12 01:51:35 +0900
 categories: [api]
-tags: [spring, responseentity, http, api, controller]
+tags: [spring, api, 응답, 컨트롤러]
 toc: true
 excerpt: "ResponseEntity는 무조건 쓰는 도구가 아니라 상태 코드, 헤더, 조건별 응답을 직접 제어할 때 값이 커진다. 단순 200 응답만 보낼 때는 객체 반환만으로도 충분하다."
 ---

@@ -3,7 +3,7 @@ layout: single
 title: "DB 커넥션 누수처럼 보일 때 먼저 구분할 것들"
 date: 2026-04-24 01:51:35 +0900
 categories: [database]
-tags: [database, connection, leak, hikaricp, troubleshooting]
+tags: [database, hikaricp, troubleshooting, 커넥션풀]
 toc: true
 excerpt: "커넥션 풀이 자주 바닥난다고 해서 모두 누수는 아니다. 진짜 누수인지, 오래 점유한 것인지 먼저 구분해야 원인을 빨리 좁힐 수 있다."
 ---

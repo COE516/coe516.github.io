@@ -3,7 +3,7 @@ layout: single
 title: "@ControllerAdvice로 글로벌 예외 처리하기"
 date: 2026-04-26 01:51:35 +0900
 categories: [api]
-tags: [spring, controlleradvice, exception, api, error-handling]
+tags: [spring, api, error-handling, 예외처리]
 toc: true
 excerpt: "컨트롤러마다 try-catch를 넣기보다 글로벌 예외 처리로 응답 형식을 맞추는 방법을 정리한다."
 ---

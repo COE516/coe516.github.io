@@ -3,7 +3,7 @@ layout: single
 title: "@Async 비동기 처리 사용 시 주의사항"
 date: 2026-05-03 01:51:35 +0900
 categories: [spring]
-tags: [spring, async, thread, executor, transaction]
+tags: [spring, async, thread, 비동기]
 toc: true
 excerpt: "@Async는 간단해 보여도 스레드, 예외, 트랜잭션 경계를 같이 생각해야 한다. 실무 주의점을 정리한다."
 ---

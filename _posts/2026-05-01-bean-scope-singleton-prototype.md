@@ -3,7 +3,7 @@ layout: single
 title: "Bean 스코프(singleton, prototype) 이해하기"
 date: 2026-05-01 01:51:35 +0900
 categories: [spring]
-tags: [spring, bean, scope, singleton, prototype]
+tags: [spring, bean, scope, 빈]
 toc: true
 excerpt: "스프링 빈은 기본이 singleton이다. prototype을 쓸 때 무엇이 달라지는지 핵심만 정리한다."
 ---

@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot 로그 설정(logback) 실무 구성"
 date: 2026-04-02 01:51:35 +0900
 categories: [deployment]
-tags: [spring, logback, logging, monitoring, production]
+tags: [spring, logging, deployment, 운영]
 toc: true
 excerpt: "로컬과 운영 로그를 같은 방식으로 남기면 금방 읽기 어려워진다. logback을 실무적으로 나누는 기준을 정리한다."
 ---

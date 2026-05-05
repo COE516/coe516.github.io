@@ -3,7 +3,7 @@ layout: single
 title: "Spring 검증 로직은 Controller에서 끝내야 할까 Service에서도 해야 할까"
 date: 2026-03-27 01:44:37 +0900
 categories: [spring]
-tags: [spring, validation, controller, service, api]
+tags: [spring, validation, 스프링, 검증]
 toc: true
 excerpt: "요청 검증을 어디까지 Controller에서 하고, 어떤 규칙은 Service에서 다시 확인해야 하는지 경계를 짧게 정리한다."
 ---

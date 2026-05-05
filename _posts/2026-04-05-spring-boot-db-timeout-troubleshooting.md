@@ -3,7 +3,7 @@ layout: single
 title: "Spring Boot에서 DB 연결 타임아웃 문제 해결"
 date: 2026-04-05 01:51:35 +0900
 categories: [database]
-tags: [spring, database, timeout, hikaricp, datasource]
+tags: [spring, database, hikaricp, 데이터베이스]
 toc: true
 excerpt: "DB 연결 타임아웃은 원인이 하나가 아니다. 애플리케이션, 네트워크, DB 설정을 어떤 순서로 봐야 할지 정리한다."
 ---

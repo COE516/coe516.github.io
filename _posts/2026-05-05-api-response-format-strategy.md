@@ -3,7 +3,7 @@ layout: single
 title: "API 응답 포맷 통일 전략"
 date: 2026-05-05 01:51:35 +0900
 categories: [api]
-tags: [api, response, error-handling, contract, backend]
+tags: [api, response, error-handling, 응답]
 toc: true
 excerpt: "응답 포맷은 예쁘게 만드는 것보다 예측 가능하게 만드는 것이 중요하다. 통일 기준을 정리한다."
 ---

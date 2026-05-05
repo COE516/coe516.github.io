@@ -3,7 +3,7 @@ layout: single
 title: "Failed to configure DataSource 에러 해결 방법"
 date: 2026-04-19 01:51:35 +0900
 categories: [database]
-tags: [spring, datasource, jdbc, hikaricp, config]
+tags: [spring, datasource, config, 데이터소스]
 toc: true
 excerpt: "Spring Boot 시작 시 Failed to configure DataSource 에러가 날 때 가장 먼저 확인해야 할 설정 포인트를 정리한다."
 ---

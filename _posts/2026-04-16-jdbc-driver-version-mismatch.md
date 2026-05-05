@@ -3,7 +3,7 @@ layout: single
 title: "JDBC 드라이버 버전 불일치 문제 해결"
 date: 2026-04-16 01:51:35 +0900
 categories: [database]
-tags: [jdbc, driver, mysql, postgresql, spring]
+tags: [jdbc, database, spring, 드라이버]
 toc: true
 excerpt: "JDBC 드라이버 버전이 맞지 않을 때 생기는 대표 증상과 점검 순서를 짧게 정리한다."
 ---
