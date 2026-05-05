@@ -3,7 +3,7 @@ layout: none
 ---
 
 {%- assign searchable_posts = site.posts | where_exp:'doc','doc.search != false' -%}
-{%- assign searchable_pages = site.pages | where_exp:'doc','doc.path contains "_pages/" and doc.search != false' -%}
+{%- assign searchable_pages = site.pages | where_exp:'doc','doc.path contains "_pages/"' | where_exp:'doc','doc.search != false' -%}
 {%- assign searchable_docs = searchable_posts | concat: searchable_pages -%}
 var store = [
 {%- for doc in searchable_docs -%}

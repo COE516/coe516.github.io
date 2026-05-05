@@ -21,7 +21,8 @@
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <i class="fas fa-search"></i>
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <span class="search__toggle-label">검색</span>
         </button>
         {% endif %}
         <button class="greedy-nav__toggle hidden" type="button">
