@@ -168,7 +168,7 @@
       return;
     }
 
-    $results.append('<p class="results__found">' + matches.length + ' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>');
+    $results.append('<p class="results__found">검색 결과 ' + matches.length + '개</p>');
 
     if (!matches.length) {
       $results.append('<p class="archive__item-excerpt">검색 결과가 없습니다.</p>');
