@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Developer Jy.Kang's Blog"
+title                    : "실전 개발 기록"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "강준영"
-description              : "Developer Jy.Kang's Blog"
+name                     : "개발 기록"
+description              : "실무에서 다시 찾아볼 개발 메모와 트러블슈팅 기록을 정리합니다."
 url                      : "https://coe516.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "coe516/coe516.github.io"
@@ -102,14 +102,22 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+ads:
+  enabled                : false
+  provider               : custom
+  posts_only             : true
+  positions:
+    top_of_post          : true
+    bottom_of_post       : true
+
 
 # Site Author
 author:
-  name             : "Jy.Kang"
+  name             : "운영자"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an web developer."
-  location         : "Somewhere"
-  email            : "kjy11302@gmail.com"
+  bio              : "실무에서 다시 찾아볼 개발 메모와 트러블슈팅 경험을 정리합니다."
+  location         :
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -141,7 +149,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/coe516"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -286,7 +294,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time : false
       comments: # true
       share: true

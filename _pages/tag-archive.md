@@ -1,7 +1,7 @@
 ---
-title: "Tags"
+title: "태그"
 layout: tags
 permalink: /tags/
-author_profile: true
+author_profile: false
 search: false
 ---
