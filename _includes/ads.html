@@ -13,6 +13,10 @@
   {% assign render_ads = false %}
 {% endif %}
 
+{% if render_ads and include.position == "middle_of_post" and ads.positions.middle_of_post != true %}
+  {% assign render_ads = false %}
+{% endif %}
+
 {% if render_ads and include.position == "bottom_of_post" and ads.positions.bottom_of_post != true %}
   {% assign render_ads = false %}
 {% endif %}

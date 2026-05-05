@@ -35,6 +35,14 @@ layout: default
 
       {% include ads.html position="top_of_post" %}
 
+      {% assign should_render_middle_ad = false %}
+      {% if page.collection == "posts" and site.ads and site.ads.enabled == true and site.ads.provider and site.ads.positions.middle_of_post == true %}
+        {% assign paragraph_count = content | split: '</p>' | size | minus: 1 %}
+        {% if paragraph_count >= 2 %}
+          {% assign should_render_middle_ad = true %}
+        {% endif %}
+      {% endif %}
+
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
@@ -44,7 +52,20 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        {{ content }}
+        {% if should_render_middle_ad %}
+          {% assign content_parts = content | split: '</p>' %}
+          {% for content_part in content_parts %}
+            {% unless content_part == "" %}
+              {{ content_part }}
+              {% unless forloop.last %}</p>{% endunless %}
+              {% if forloop.index == 2 %}
+                {% include ads.html position="middle_of_post" %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        {% else %}
+          {{ content }}
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

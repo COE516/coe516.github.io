@@ -1,6 +1,25 @@
+{% assign ad_client = site.ads.client %}
+{% assign ad_slot = nil %}
+
 {% case include.position %}
 {% when "top_of_post" %}
-  {% comment %}Paste the top-of-post ad unit here later.{% endcomment %}
+  {% assign ad_slot = site.ads.slots.top_of_post %}
+{% when "middle_of_post" %}
+  {% assign ad_slot = site.ads.slots.middle_of_post %}
 {% when "bottom_of_post" %}
-  {% comment %}Paste the bottom-of-post ad unit here later.{% endcomment %}
+  {% assign ad_slot = site.ads.slots.bottom_of_post %}
 {% endcase %}
+
+{% if ad_client and ad_slot %}
+  <div class="page__ad page__ad--{{ include.position }}">
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-client="{{ ad_client }}"
+         data-ad-slot="{{ ad_slot }}"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+{% endif %}
