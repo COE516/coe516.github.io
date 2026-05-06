@@ -56,6 +56,12 @@ body {
     width: 100%;
     clear: both;
 
+    .page__main {
+      display: flow-root;
+      position: relative;
+      width: 100%;
+    }
+
     .page__content,
     .page__meta,
     .page__share {

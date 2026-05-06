@@ -24,6 +24,17 @@ $h-size-6: 0.88em;
   line-height: 1.2;
 }
 
+.page__main > header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.page__main > header .page__title,
+.page__main > header .page__meta {
+  margin: 0;
+}
+
 .page__content {
   p,
   li,
