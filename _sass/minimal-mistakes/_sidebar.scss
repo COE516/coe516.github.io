@@ -7,6 +7,7 @@
    ========================================================================== */
 
 .sidebar {
+  display: none;
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
@@ -17,6 +18,7 @@
   // }
 
   @include breakpoint($large) {
+    display: block;
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
     opacity: 0.75;
