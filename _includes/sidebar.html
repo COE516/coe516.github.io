@@ -7,7 +7,15 @@
       {% if site.sidebar_intro.categories %}
         <ul class="sidebar-intro__categories">
           {% for category in site.sidebar_intro.categories %}
-            <li><a href="{{ category.url | relative_url }}">{{ category.label }}</a></li>
+            {% assign category_slug = category.url | split: '#' | last %}
+            {% assign category_posts = site.categories[category_slug] %}
+            {% assign category_count = category_posts | size %}
+            <li>
+              <a href="{{ category.url | relative_url }}">
+                <span>{{ category.label }}</span>
+                <span class="sidebar-intro__category-count">{{ category_count }}</span>
+              </a>
+            </li>
           {% endfor %}
         </ul>
       {% endif %}
