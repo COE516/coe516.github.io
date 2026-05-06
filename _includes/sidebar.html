@@ -1,5 +1,18 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
+{% if page.author_profile or layout.author_profile or page.sidebar or site.sidebar_intro.enabled %}
   <div class="sidebar sticky">
+  {% if site.sidebar_intro.enabled %}
+    <section class="sidebar-intro">
+      {% if site.sidebar_intro.title %}<h3 class="sidebar-intro__title">{{ site.sidebar_intro.title }}</h3>{% endif %}
+      {% if site.sidebar_intro.text %}<div class="sidebar-intro__text">{{ site.sidebar_intro.text | markdownify }}</div>{% endif %}
+      {% if site.sidebar_intro.categories %}
+        <ul class="sidebar-intro__categories">
+          {% for category in site.sidebar_intro.categories %}
+            <li><a href="{{ category.url | relative_url }}">{{ category.label }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </section>
+  {% endif %}
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}

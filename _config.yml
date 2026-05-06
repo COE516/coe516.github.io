@@ -133,6 +133,22 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+sidebar_intro:
+  enabled          : true
+  text             : |
+    백엔드와 웹 개발을 하면서 다시 찾아보게 되는 실무 메모와 트러블슈팅 기록을 정리합니다.
+
+    Spring, API, 데이터베이스, 배포 관련 내용을 짧고 명확하게 남기는 것을 목표로 합니다.
+  categories:
+    - label: "Spring"
+      url: "/categories/#spring"
+    - label: "API"
+      url: "/categories/#api"
+    - label: "Database"
+      url: "/categories/#database"
+    - label: "Deployment"
+      url: "/categories/#deployment"
+
 # Site Footer
 footer:
   links:
