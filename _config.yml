@@ -307,9 +307,15 @@ defaults:
     values:
       layout: single
       author_profile: false
+      toc_sticky: true
       read_time : false
       comments: # true
       share: true
       related: true
       show_date: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      toc_sticky: true
 
