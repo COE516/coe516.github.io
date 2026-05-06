@@ -1,7 +1,7 @@
 # Developer Jy.Kang's Blog
 
 개인 기술 블로그 저장소입니다.
-Jekyll과 GitHub Pages를 기반으로 운영하고 있으며, Minimal Mistakes 테마를 사용합니다.
+Jekyll과 GitHub Pages를 기반으로 운영하며, Minimal Mistakes 테마를 사용합니다.
 
 ## 로컬 실행
 
