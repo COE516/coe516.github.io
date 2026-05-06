@@ -47,6 +47,10 @@
     margin-bottom: 1em;
   }
 
+  > :first-child {
+    margin-top: 0;
+  }
+
   h2,
   h3,
   h4,
@@ -135,7 +139,7 @@
 
   @include breakpoint($large) {
     position: absolute;
-    top: 0;
+    top: 1em;
     right: 0;
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
