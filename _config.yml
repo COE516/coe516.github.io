@@ -103,18 +103,7 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 ads:
-  enabled                : true
-  provider               : custom
-  posts_only             : true
   client                 : "ca-pub-7710820123926917"
-  positions:
-    top_of_post          : true
-    middle_of_post       : true
-    bottom_of_post       : true
-  slots:
-    top_of_post          :
-    middle_of_post       :
-    bottom_of_post       :
 
 
 # Site Author
