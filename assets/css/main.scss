@@ -75,3 +75,12 @@ $h-size-6: 0.88em;
     display: none;
   }
 }
+
+.sidebar__right.sticky .toc .toc__menu {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.sidebar__right.sticky .toc .toc__menu::-webkit-scrollbar {
+  display: none;
+}
