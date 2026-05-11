@@ -4,18 +4,25 @@
     <section class="sidebar-intro">
       {% if site.sidebar_intro.title %}<h3 class="sidebar-intro__title">{{ site.sidebar_intro.title }}</h3>{% endif %}
       {% if site.sidebar_intro.text %}<div class="sidebar-intro__text">{{ site.sidebar_intro.text | markdownify }}</div>{% endif %}
-      {% if site.sidebar_intro.categories %}
+      {% if site.categories and site.categories.size > 0 %}
+        {% assign categories_max = 0 %}
+        {% for category in site.categories %}
+          {% if category[1].size > categories_max %}
+            {% assign categories_max = category[1].size %}
+          {% endif %}
+        {% endfor %}
         <ul class="sidebar-intro__categories">
-          {% for category in site.sidebar_intro.categories %}
-            {% assign category_slug = category.url | split: '#' | last %}
-            {% assign category_posts = site.categories[category_slug] %}
-            {% assign category_count = category_posts | size %}
-            <li>
-              <a href="{{ category.url | relative_url }}">
-                <span>{{ category.label }}</span>
-                <span class="sidebar-intro__category-count">{{ category_count }}</span>
-              </a>
-            </li>
+          {% for i in (1..categories_max) reversed %}
+            {% for category in site.categories %}
+              {% if category[1].size == i %}
+                <li>
+                  <a href="{{ '/categories/#' | append: (category[0] | slugify | downcase) | relative_url }}">
+                    <span>{{ category[0] }}</span>
+                    <span class="sidebar-intro__category-count">{{ i }}</span>
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
           {% endfor %}
         </ul>
       {% endif %}

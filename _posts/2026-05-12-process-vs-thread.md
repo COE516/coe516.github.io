@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "프로세스와 스레드의 차이, 실무에서는 어떻게 구분해서 볼까"
-date: 2026-05-12 01:51:35 +0900
+date: 2026-05-12 00:40:00 +0900
 categories: [dev]
 tags: [process, thread, os, 동시성]
 toc: true
