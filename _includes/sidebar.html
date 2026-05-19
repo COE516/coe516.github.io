@@ -16,7 +16,7 @@
             {% for category in site.categories %}
               {% if category[1].size == i %}
                 <li>
-                  <a href="{{ '/categories/#' | append: (category[0] | slugify | downcase) | relative_url }}">
+                  <a href="{{ site.category_archive.path | relative_url }}#{{ category[0] | slugify | downcase }}">
                     <span>{{ category[0] }}</span>
                     <span class="sidebar-intro__category-count">{{ i }}</span>
                   </a>
