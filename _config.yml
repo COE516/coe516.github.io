@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "A Web Developer's Blog"
+title                    : "실무 개발 메모"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "A Web Developer's Blog"
-description              : "Notes and troubleshooting records from web development."
+subtitle                 : "Spring · API · Database · Troubleshooting"
+name                     : "실무 개발 메모"
+description              : "Spring, API, 데이터베이스, 배포 과정에서 마주친 문제와 해결 과정을 실무 관점에서 정리하는 기술 블로그입니다."
 url                      : "https://coe516.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "coe516/coe516.github.io"
@@ -91,9 +91,10 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "COE516"
+  links:
+    - "https://github.com/COE516"
 
 # Analytics
 analytics:
@@ -108,38 +109,26 @@ ads:
 
 # Site Author
 author:
-  name             : "운영자"
+  name             : "COE516"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "실무에서 다시 찾아볼 개발 메모와 트러블슈팅 경험을 정리합니다."
-  location         :
-  email            :
+  bio              : "Spring, API, 데이터베이스, 배포 과정에서 다시 확인하게 되는 실무 기준과 트러블슈팅 기록을 정리합니다."
+  location         : "South Korea"
+  email            : "kjy11302@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "mailto:kjy11302@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/COE516"
 
 sidebar_intro:
   enabled          : true
   title            : "블로그 소개"
   text             : |
-    백엔드와 웹 개발을 하면서 다시 찾아보게 되는 실무 메모와 트러블슈팅 기록을 정리합니다.
+    Spring, API, 데이터베이스, 배포 과정에서 실제로 부딪힌 문제와 해결 흐름을 실무 기준으로 정리합니다.
 
-    Spring, API, 데이터베이스, 배포 관련 내용을 짧고 명확하게 남기는 것을 목표로 합니다.
+    개념 요약보다 재현 가능한 확인 포인트와 트러블슈팅 기록을 남기는 데 집중합니다.
   categories:
     - label: "Spring"
       url: "/categories/#spring"
@@ -153,24 +142,12 @@ sidebar_intro:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kjy11302@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/COE516"
 
 
 # Reading Files

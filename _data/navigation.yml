@@ -8,3 +8,7 @@ main:
     url: "/categories/"
   - title: "태그"
     url: /tags/
+  - title: "문의"
+    url: /contact/
+  - title: "개인정보처리방침"
+    url: /privacy-policy/
